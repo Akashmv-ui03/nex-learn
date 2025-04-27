@@ -1,0 +1,24 @@
+/* [project]/src/app/style.css [app-client] (css) */
+.background-one {
+  background-image: url("/background.webp");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.background-one:before {
+  content: "";
+  z-index: 1;
+  background-color: #00000080;
+  position: absolute;
+  inset: 0;
+}
+
+.login-page .login-sec {
+  background-color: var(--);
+  max-width: 900px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=src_app_style_css_f9ee138c._.single.css.map*/

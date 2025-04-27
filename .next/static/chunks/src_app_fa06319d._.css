@@ -1,0 +1,425 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --primary-color: #1c3141;
+  --secondary-color: #177a9c;
+  --text-color: #5c5c5c;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  color: var(--text-color);
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+  margin: 0 !important;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-control, .form-control:focus, .form-control:active {
+  box-shadow: none;
+  border: none;
+  outline: none;
+  min-height: 48px !important;
+}
+
+.form-control::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Inter, sans-serif;
+}
+
+a, a:hover, a:focus, a:active {
+  outline: none;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.m-15 {
+  margin: 15px 0;
+}
+
+.m-60 {
+  margin: 60px 0;
+}
+
+.mt {
+  margin-top: 30px;
+}
+
+.mb {
+  margin-bottom: 30px;
+}
+
+.margin-main {
+  margin: 80px 0;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 19px;
+}
+
+li {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+p {
+  color: #111;
+  font-family: DM Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.d-flex {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+h2 {
+  letter-spacing: .5px;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+@media (width <= 768px) {
+  .flex-reverse {
+    flex-direction: column-reverse !important;
+  }
+}
+
+@media (width >= 768px) {
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .col-md-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+
+  .col-md-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-md-2 {
+    flex: 0 0 16.666%;
+    max-width: 16.666%;
+  }
+
+  .col-md-7 {
+    flex: 0 0 58.3333%;
+    max-width: 58.3333%;
+  }
+
+  .col-md-5 {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+  }
+
+  .col-md-10 {
+    flex: none;
+    width: 83.3333%;
+    max-width: 83.3333%;
+  }
+}
+
+@media (width >= 1700px) {
+  .container {
+    max-width: 1600px !important;
+  }
+}
+
+@media screen and (width >= 1251px) and (width <= 1500px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+@media screen and (width >= 1001px) and (width <= 1250px) {
+  .container {
+    max-width: 980px !important;
+  }
+}
+
+@media screen and (width >= 769px) and (width <= 1000px) {
+  .container {
+    max-width: 730px !important;
+  }
+}
+
+@media (width <= 768px) {
+  .container {
+    max-width: 580px !important;
+  }
+}
+
+@media (width <= 468px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.row {
+  flex-flow: wrap;
+  display: flex;
+}
+
+.btn {
+  touch-action: manipulation;
+}
+
+.p-10 {
+  padding: 10px 0;
+}
+
+.p-20 {
+  padding: 20px 0;
+}
+
+.p-30 {
+  padding: 30px 0;
+}
+
+.p-40 {
+  padding: 40px 0;
+}
+
+.p-50 {
+  padding: 50px 0;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:active, a:focus {
+  color: #333;
+  -o-transition-timing-function: ease-in-out;
+  -o-transition-duration: .2s;
+  text-decoration: none;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -ms-transition-duration: .2s;
+  transition-duration: .2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.padding-main {
+  padding: 80px 0;
+}
+
+@media (width <= 768px) {
+  .padding-main {
+    padding: 20px 0;
+  }
+}
+
+.background-one {
+  background-image: url("/background.webp");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.background-one:before {
+  content: "";
+  z-index: 1;
+  background-color: #00000080;
+  position: absolute;
+  inset: 0;
+}
+
+.login-page .login-sec {
+  background-color: var(--);
+  max-width: 900px;
+  padding: 10px;
+}
+
+
+/* [project]/src/app/style.css [app-client] (css) */
+.background-one {
+  background-image: url("/background.webp");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.background-one:before {
+  content: "";
+  z-index: 1;
+  background-color: #00000080;
+  position: absolute;
+  inset: 0;
+}
+
+.login-page .login-sec {
+  background-color: var(--);
+  max-width: 900px;
+  padding: 10px;
+}
+
+
+/*# sourceMappingURL=src_app_fa06319d._.css.map*/

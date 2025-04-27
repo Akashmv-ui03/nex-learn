@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/style.css"],"sourcesContent":[".background-one {\r\n    position: relative;\r\n    min-height: 100vh;\r\n    background-image: url('/background.webp');\r\n    background-size: cover; /* Make sure the background image covers the whole container */\r\n    background-position: center; /* Optionally center the background image */\r\n  }\r\n  \r\n  .background-one::before {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    background-color: rgba(0, 0, 0, 0.5); /* Overlay color (black with 50% opacity) */\r\n    z-index: 1; /* Ensures the overlay is on top of the background but below the content */\r\n  }\r\n\r\n  \r\n\r\n  .login-page .login-sec{\r\n    max-width: 900px;\r\n    padding: 10px;\r\n    background-color: var(--);\r\n  }"],"names":[],"mappings":"AAAA;;;;;;;;AAQE;;;;;;;;AAaA"}}]
+}
