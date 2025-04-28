@@ -51,7 +51,7 @@ export default function Instructions() {
                 <li>Your test results will be displayed immediately after submission, indicating whether you have passed or need to retake the test.</li>
               </ul>
               <div className='start-btn'>
-                <Link href="#">Start Test</Link>
+                <Link href="/mcq">Start Test</Link>
               </div>
             </div>
           </div>

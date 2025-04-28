@@ -55,7 +55,8 @@ export default function LoginSms() {
                         <p>Your 6 digit code is on its way. This can sometimes take a few moments to arrive.</p>
                         <Link className='resend-code ' href="#">Resend Code</Link>
                     </div>
-                    <button type="submit" className="submit-btn">Get Started</button>
+                    <Link href="/details" className="submit-btn">Get Started</Link>
+                    {/* <button type="submit" className="submit-btn">Get Started</button> */}
                   </form>
                 </div>
               </div>

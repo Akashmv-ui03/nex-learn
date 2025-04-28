@@ -54,9 +54,9 @@ export default function MCQ() {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <button className='review'>Mark for review</button>
-                        <button className='prev'>Previous</button>
-                        <button className='next'>Next</button>
+                        <Link href="/result" className='review'>Mark for Review</Link>
+                        <Link href="/result" className='prev'>Previous</Link>
+                        <Link href="/result" className='next'>Next</Link>
                     </div>
 
                 </div>

@@ -62,7 +62,8 @@ export default function LoginPage() {
                     <div className='form-group mb-90'>
                       <p>By tapping Get started, you agree to the <Link href="#">Terms & Conditions</Link></p>
                     </div>
-                    <button type="submit" className="submit-btn">Get Started</button>
+                    <Link href="/sms" className="submit-btn">Get Started</Link>
+                    {/* <button type="submit" className="submit-btn">Get Started</button> */}
                   </form>
                 </div>
               </div>

@@ -930,10 +930,12 @@ a:focus {
   margin-top: 20px;
   gap: 20px;
 }
-.mcq-question-sec .left .buttons button{
+.mcq-question-sec .left .buttons a{
   padding:10px 20px;
   border: none;
   border-radius: 3px;
+  text-align: center;
+  font-size: 15px;
   width: 100%;
 }
 .mcq-question-sec .left .buttons .review{

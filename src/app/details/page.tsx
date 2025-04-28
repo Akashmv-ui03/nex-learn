@@ -1,6 +1,7 @@
 "use client";
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRef, useState } from "react";
 
 export default function LoginDetails() {
@@ -124,8 +125,8 @@ export default function LoginDetails() {
                                                 <option value="district3">District 3</option>
                                             </select>
                                         </div>
-
-                                        <button type="submit" className="submit-btn">Get Started</button>
+                                        <Link href="/instructions" className="submit-btn">Get Started</Link>
+                                        {/* <button type="submit" className="submit-btn">Get Started</button> */}
                                     </form>
                                 </div>
                             </div>

@@ -1,11 +1,7 @@
 {
-  "/Details/page": "app/Details/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
   "/details/page": "app/details/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/instructions/page": "app/instructions/page.js",
   "/mcq/page": "app/mcq/page.js",
   "/page": "app/page.js",
-  "/results/page": "app/results/page.js",
   "/sms/page": "app/sms/page.js"
 }

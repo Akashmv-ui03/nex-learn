@@ -987,11 +987,13 @@ a, a:active, a:focus {
   display: flex;
 }
 
-.mcq-question-sec .left .buttons button {
+.mcq-question-sec .left .buttons a {
+  text-align: center;
   border: none;
   border-radius: 3px;
   width: 100%;
   padding: 10px 20px;
+  font-size: 15px;
 }
 
 .mcq-question-sec .left .buttons .review {
